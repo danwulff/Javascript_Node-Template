@@ -70,7 +70,7 @@ gulp.task("clean", function(){
 });
 
 
-//bower tasks for compressing .js and .css files
+//bower tasks for compressing external .js and .css library files
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
 
 gulp.task('bowerJS', function () {
