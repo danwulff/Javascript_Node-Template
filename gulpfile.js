@@ -1,4 +1,3 @@
-var buildProduction = utilities.env.production;
 var gulp = require('gulp');
 var utilities = require('gulp-util');
 var concat = require('gulp-concat');
@@ -21,6 +20,7 @@ var lib = require('bower-files')({
     }
   }
 });
+var buildProduction = utilities.env.production;
 
 
 
